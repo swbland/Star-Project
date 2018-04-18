@@ -1,0 +1,93 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6
+}
+
+body > div {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border: 1px solid #ffd24a 
+
+}
+
+#site_header{
+    background-color: #ff8523;
+    text-align: left;
+}
+
+#logo{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.main_navigation a{
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+a, h2, h3{
+    color:#1fabe5
+}
+
+ul{
+    font-weight: bold
+}
+
+table, td, tr{
+    border-collapse: collapse;
+    border: 1px solid #1fabe5;
+}
+
+table{
+    width: 100%;
+}
+
+td, tr{
+    padding: 12px;
+}
+
+thead{
+    background-color: #1fabe5;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+form{
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.name{
+    background-color: #ff8523;
+    border-radius: 5px;
+    color: white;
+}
+
+.city_container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 88%;
+    padding: 6%;
+    color: white;
+    border: 1px solid #1fabe5;
+}
+
+.submit_container{
+    text-align: left;
+}
+
+#submit_button{
+    background: #1fabe5;
+    color: white;
+    padding: 20px;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
